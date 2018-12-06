@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  box-sizing: border-box;
   font-family: "Crimson Text", serif;
   color: #222;
 }
@@ -28,7 +27,7 @@ article {
 
 article h1 {
   font-weight: normal;
-  margin-top: 1rem
+  margin-top: 1rem;
 }
 
 article header {
@@ -53,6 +52,10 @@ blockquote {
   color: #999;
 }
 
+article p {
+  margin-top: 1rem;
+ }
+
 body {
   margin: 0;
   margin-left: 1rem;
@@ -60,45 +63,49 @@ body {
 }
 
 article ol {
-   padding: 0;
-   margin-left: 1rem;
-   margin-top: 1.3rem;
+  padding: 0;
+  margin-left: 1rem;
+  margin-top: 1.3rem;
  }
 
- @media only screen and (min-width: 38em) {
+@media only screen and (min-width: 38em) {
 
-   blockquote {
-     margin-left: 5rem;
-   }
+  blockquote {
+    margin-left: 5rem;
+  }
 
-   html {
-     font-size: 110%;
-     line-height: 1.4;
-   }
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
-   article > p:nth-of-type(1) {
-     margin-top: 2rem;
-   }
+  article > p:nth-of-type(1) {
+    margin-top: 2rem;
+  }
 
- }
+}
 
- @media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60em) {
 
-   html {
-     font-size: 120%;
-     line-height: 1.5;
+  html {
+    font-size: 120%;
+    line-height: 1.5;
    }
 
   body {
     margin-left: 1.5rem;
   }
-   p:first-of-type {
+
+  p:first-of-type {
     margin-bottom: 2rem;
   }
-}
- @media only screen and (min-width: 90em) {
 
-   html {
-     font-size: 130%;
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
    }
- }
+
+}
