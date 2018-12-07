@@ -45,12 +45,15 @@ article header p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  margin-top: 1.3rem;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: 0;
+  margin-bottom: 1.3rem;
 }
 
 .quote {
@@ -71,6 +74,10 @@ article ol {
   padding: 0;
   margin-left: 1.3rem;
   margin-top: 1.3rem;
+}
+
+article p:last-child {
+  margin-bottom: 1.3rem;
 }
 
 @media only screen and (min-width: 38em) {
