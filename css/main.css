@@ -46,6 +46,7 @@ article header p {
 article > p:last-child {
   border-bottom: 1px solid #999;
   margin-top: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 blockquote {
@@ -92,7 +93,7 @@ article p:last-child {
   }
 
   article > p:nth-of-type(1) {
-    margin-top: 1.3rem;
+    margin-top: 2rem;
   }
 
 }
