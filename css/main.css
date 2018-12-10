@@ -122,3 +122,10 @@ article p:last-child {
   html {
     font-size: 130%;
   }
+
+  body {
+    margin-left: 1.3rem;
+    margin-top: 1.3rem;
+  }
+
+}
