@@ -95,10 +95,16 @@ article p:last-child {
 
   article > p:nth-of-type(1) {
     margin-top: 2rem;
+    margin-right: 2rem;
   }
 
   article p {
     margin-bottom: 1rem;
+  }
+
+  article header {
+    margin-top: 1rem;
+    margin-bottom: 0;
   }
 
 }
@@ -118,7 +124,14 @@ article p:last-child {
     margin-bottom: 3rem;
   }
 
+  article > p:nth-of-type(1) {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
   article header {
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
